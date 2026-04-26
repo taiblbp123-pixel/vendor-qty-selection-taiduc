@@ -1,0 +1,50 @@
+
+Gurobi 13.0.1 (win64) logging started Thu Apr 23 13:03:18 2026
+
+
+Gurobi 13.0.1 (win64) logging started Thu Apr 23 13:03:45 2026
+
+Set parameter LogFile to value "C:\Users\David\OneDrive\TAIDUC\0. DATASET. MATERIAL\Optimization , Simulation, Operation Research - Exercise & Problem\Procurement - Vendor quantity selection\debugs\logs\01_baseline_20260423_1303.log"
+Gurobi Optimizer version 13.0.1 build v13.0.1rc0 (win64 - Windows 11+.0 (26200.2))
+
+CPU model: Intel(R) Core(TM) i5-8265U CPU @ 1.60GHz, instruction set [SSE2|AVX|AVX2]
+Thread count: 4 physical cores, 8 logical processors, using up to 8 threads
+
+Non-default parameters:
+LogToConsole  0
+
+Optimize a model with 730 rows, 388 columns and 1746 nonzeros (Min)
+Model fingerprint: 0x255d72c6
+Model has 194 linear objective coefficients
+Variable types: 194 continuous, 194 integer (194 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+05]
+  Objective range  [6e+00, 2e+01]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 2e+05]
+
+Presolve removed 266 rows and 41 columns
+Presolve time: 0.01s
+Presolved: 464 rows, 347 columns, 1417 nonzeros
+Variable types: 172 continuous, 175 integer (175 binary)
+Found heuristic solution: objective 1067357.3040
+Found heuristic solution: objective 957501.65000
+Found heuristic solution: objective 937874.42000
+
+Root relaxation: objective 7.940804e+05, 211 iterations, 0.00 seconds (0.00 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0 794080.414    0    1 937874.420 794080.414  15.3%     -    0s
+H    0     0                    937864.73000 794080.414  15.3%     -    0s
+H    0     0                    806509.90000 794080.414  1.54%     -    0s
+H    0     0                    800110.66320 794080.414  0.75%     -    0s
+
+Explored 1 nodes (282 simplex iterations) in 0.03 seconds (0.01 work units)
+Thread count was 8 (of 8 available processors)
+
+Solution count 6: 800111 806510 937865 ... 1.06736e+06
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 8.001106631961e+05, best bound 8.001106631961e+05, gap 0.0000%

@@ -1,0 +1,145 @@
+
+Gurobi 13.0.1 (win64) logging started Sun Apr 26 12:09:14 2026
+
+Set parameter LogFile to value "C:\Users\David\OneDrive\TAIDUC\0. DATASET. MATERIAL\Optimization , Simulation, Operation Research - Exercise & Problem\Procurement - Vendor quantity selection\debugs\logs\01_baseline_20260426_1209.log"
+Gurobi Optimizer version 13.0.1 build v13.0.1rc0 (win64 - Windows 11+.0 (26200.2))
+
+CPU model: Intel(R) Core(TM) i5-8265U CPU @ 1.60GHz, instruction set [SSE2|AVX|AVX2]
+Thread count: 4 physical cores, 8 logical processors, using up to 8 threads
+
+Non-default parameters:
+LogToConsole  0
+
+Optimize a model with 730 rows, 388 columns and 1746 nonzeros (Min)
+Model fingerprint: 0x75e2c831
+Model has 194 linear objective coefficients
+Variable types: 194 continuous, 194 integer (194 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+05]
+  Objective range  [6e+00, 2e+01]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 2e+05]
+
+Presolve removed 196 rows and 304 columns
+Presolve time: 0.01s
+
+Explored 0 nodes (0 simplex iterations) in 0.01 seconds (0.00 work units)
+Thread count was 1 (of 8 available processors)
+
+Solution count 0
+
+Model is infeasible
+Best objective -, best bound -, gap -
+Gurobi Optimizer version 13.0.1 build v13.0.1rc0 (win64 - Windows 11+.0 (26200.2))
+
+CPU model: Intel(R) Core(TM) i5-8265U CPU @ 1.60GHz, instruction set [SSE2|AVX|AVX2]
+Thread count: 4 physical cores, 8 logical processors, using up to 8 threads
+
+Non-default parameters:
+LogToConsole  0
+
+
+Solve phase I feasrelax model to determine minimal relaxation
+
+Optimize a model with 722 rows, 398 columns and 1562 nonzeros (Min)
+Model fingerprint: 0xeddbce55
+Model has 10 linear objective coefficients
+Variable types: 204 continuous, 194 integer (194 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+05]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+04]
+
+Found heuristic solution: objective 58820.000000
+Presolve removed 722 rows and 398 columns
+Presolve time: 0.02s
+Presolve: All rows and columns removed
+
+Explored 0 nodes (0 simplex iterations) in 0.02 seconds (0.00 work units)
+Thread count was 1 (of 8 available processors)
+
+Solution count 2: 47120 58820 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 4.712000000000e+04, best bound 4.712000000000e+04, gap 0.0000%
+Set parameter LogToConsole to value 0
+Gurobi Optimizer version 13.0.1 build v13.0.1rc0 (win64 - Windows 11+.0 (26200.2))
+
+CPU model: Intel(R) Core(TM) i5-8265U CPU @ 1.60GHz, instruction set [SSE2|AVX|AVX2]
+Thread count: 4 physical cores, 8 logical processors, using up to 8 threads
+
+Non-default parameters:
+LogToConsole  0
+
+
+Solve phase I feasrelax model to determine minimal relaxation
+
+Optimize a model with 730 rows, 1053 columns and 2411 nonzeros (Min)
+Model fingerprint: 0x0df735bf
+Model has 665 linear objective coefficients
+Variable types: 859 continuous, 194 integer (194 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+05]
+  Objective range  [1e+01, 2e+03]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 2e+05]
+
+Found heuristic solution: objective 1.554900e+08
+Presolve removed 199 rows and 196 columns
+Presolve time: 0.01s
+Presolved: 531 rows, 857 columns, 1977 nonzeros
+Variable types: 663 continuous, 194 integer (194 binary)
+
+Root relaxation: objective 2.749997e+01, 282 iterations, 0.00 seconds (0.00 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0   27.49997    0   19 1.5549e+08   27.49997   100%     -    0s
+H    0     0                    7.068000e+07   27.49997   100%     -    0s
+H    0     0                    1.641609e+07   27.49997   100%     -    0s
+H    0     0                    1.078010e+07   27.49997   100%     -    0s
+     0     0   90.54416    0   23 1.0780e+07   90.54416   100%     -    0s
+H    0     0                    7245160.0000   90.54416   100%     -    0s
+H    0     0                    3383150.0000   93.87750   100%     -    0s
+     0     0   93.87750    0   22 3383150.00   93.87750   100%     -    0s
+H    0     0                    3382140.0000   93.87750   100%     -    0s
+     0     0  113.52358    0   22 3382140.00  113.52358   100%     -    0s
+H    0     0                    1059797.8431  113.69333   100%     -    0s
+     0     0  118.90691    0   21 1059797.84  118.90691   100%     -    0s
+     0     0  118.90691    0   19 1059797.84  118.90691   100%     -    0s
+H    0     0                     180.0000000  121.88517  32.3%     -    0s
+     0     0  121.88517    0   19  180.00000  121.88517  32.3%     -    0s
+H    0     0                     160.0000000  121.88517  23.8%     -    0s
+     0     0  122.04660    0   16  160.00000  122.04660  23.7%     -    0s
+     0     0  123.62160    0   15  160.00000  123.62160  22.7%     -    0s
+     0     0  123.62160    0   16  160.00000  123.62160  22.7%     -    0s
+     0     0  132.46000    0   11  160.00000  132.46000  17.2%     -    0s
+     0     0  140.66000    0    6  160.00000  140.66000  12.1%     -    0s
+     0     0  149.51000    0   10  160.00000  149.51000  6.56%     -    0s
+     0     0  149.51000    0   10  160.00000  149.51000  6.56%     -    0s
+     0     0  149.51000    0   13  160.00000  149.51000  6.56%     -    0s
+     0     0  149.51000    0   11  160.00000  149.51000  6.56%     -    0s
+     0     0  149.51000    0    8  160.00000  149.51000  6.56%     -    0s
+     0     0  149.51000    0    9  160.00000  149.51000  6.56%     -    0s
+     0     0  149.51000    0    9  160.00000  149.51000  6.56%     -    0s
+     0     2  149.51000    0    9  160.00000  149.51000  6.56%     -    0s
+
+Cutting planes:
+  Gomory: 15
+  Lift-and-project: 2
+  Cover: 8
+  Implied bound: 1
+  MIR: 58
+  Flow cover: 15
+  RLT: 15
+
+Explored 1572 nodes (15672 simplex iterations) in 0.85 seconds (0.28 work units)
+Thread count was 8 (of 8 available processors)
+
+Solution count 10: 160 180 1.0598e+06 ... 1.5549e+08
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.600000000000e+02, best bound 1.600000000000e+02, gap 0.0000%
+Set parameter LogToConsole to value 0

@@ -1,0 +1,55 @@
+
+Gurobi 13.0.1 (win64) logging started Sun Apr 26 12:15:41 2026
+
+Set parameter LogFile to value "C:\Users\David\OneDrive\TAIDUC\0. DATASET. MATERIAL\Optimization\Procurement-Vendor quantity selection\debugs\logs\02_Relaxation_20260426_1215.log"
+Gurobi Optimizer version 13.0.1 build v13.0.1rc0 (win64 - Windows 11+.0 (26200.2))
+
+CPU model: Intel(R) Core(TM) i5-8265U CPU @ 1.60GHz, instruction set [SSE2|AVX|AVX2]
+Thread count: 4 physical cores, 8 logical processors, using up to 8 threads
+
+Non-default parameters:
+LogToConsole  0
+
+Optimize a model with 731 rows, 1053 columns and 3076 nonzeros (Min)
+Model fingerprint: 0x2666995c
+Model has 194 linear objective coefficients
+Variable types: 859 continuous, 194 integer (194 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+05]
+  Objective range  [6e+00, 2e+01]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 2e+05]
+
+Loaded user MIP start with objective 977518
+MIP start from previous solve produced solution with objective 972711 (0.00s)
+MIP start from previous solve produced solution with objective 972711 (0.00s)
+Loaded MIP start from previous solve with objective 972711
+
+Presolve removed 245 rows and 261 columns
+Presolve time: 0.12s
+Presolved: 486 rows, 792 columns, 2501 nonzeros
+Variable types: 617 continuous, 175 integer (175 binary)
+
+Root relaxation: objective 7.940800e+05, 428 iterations, 0.01 seconds (0.00 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0 794080.004    0   19 972710.760 794080.004  18.4%     -    0s
+H    0     0                    841177.60000 794080.004  5.60%     -    0s
+H    0     0                    827245.41404 794080.004  4.01%     -    0s
+
+Cutting planes:
+  Gomory: 2
+  Cover: 7
+  MIR: 15
+  GUB cover: 4
+  RLT: 4
+
+Explored 1 nodes (440 simplex iterations) in 0.35 seconds (0.06 work units)
+Thread count was 8 (of 8 available processors)
+
+Solution count 3: 827245 841178 972711 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 8.272454140436e+05, best bound 8.272454140436e+05, gap 0.0000%

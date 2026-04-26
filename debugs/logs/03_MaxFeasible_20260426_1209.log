@@ -1,0 +1,47 @@
+
+Gurobi 13.0.1 (win64) logging started Sun Apr 26 12:09:14 2026
+
+Set parameter LogFile to value "C:\Users\David\OneDrive\TAIDUC\0. DATASET. MATERIAL\Optimization , Simulation, Operation Research - Exercise & Problem\Procurement - Vendor quantity selection\debugs\logs\03_MaxFeasible_20260426_1209.log"
+Gurobi Optimizer version 13.0.1 build v13.0.1rc0 (win64 - Windows 11+.0 (26200.2))
+
+CPU model: Intel(R) Core(TM) i5-8265U CPU @ 1.60GHz, instruction set [SSE2|AVX|AVX2]
+Thread count: 4 physical cores, 8 logical processors, using up to 8 threads
+
+Non-default parameters:
+LogToConsole  0
+
+Optimize a model with 723 rows, 398 columns and 1572 nonzeros (Min)
+Model fingerprint: 0x000c9ada
+Model has 194 linear objective coefficients
+Variable types: 204 continuous, 194 integer (194 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+05]
+  Objective range  [6e+00, 2e+01]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 5e+04]
+
+Loaded user MIP start with objective 356890
+MIP start from previous solve produced solution with objective 196244 (0.00s)
+Loaded MIP start from previous solve with objective 196244
+
+Presolve removed 680 rows and 358 columns
+Presolve time: 0.05s
+Presolved: 43 rows, 40 columns, 129 nonzeros
+Found heuristic solution: objective 173444.40000
+Variable types: 20 continuous, 20 integer (20 binary)
+Found heuristic solution: objective 159720.69000
+
+Root relaxation: objective 1.463514e+05, 1 iterations, 0.00 seconds (0.00 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+*    0     0               0    146351.44000 146351.440  0.00%     -    0s
+
+Explored 1 nodes (1 simplex iterations) in 0.05 seconds (0.00 work units)
+Thread count was 8 (of 8 available processors)
+
+Solution count 5: 146351 159721 173444 ... 356890
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.463514400000e+05, best bound 1.463514400000e+05, gap 0.0000%
