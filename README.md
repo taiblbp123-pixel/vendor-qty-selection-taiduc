@@ -86,8 +86,6 @@ check file `output_FEASIBILITY.xlsx` and `output_INFEASIBILITY.xlsx` for details
 
 #### WHHEN INFEASIBLE
 
-
-
 1. analyze which material cause infeasible
     ![alt text](images/image-2.png)
 2. analyze which vendor cause infeasible
