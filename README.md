@@ -36,6 +36,9 @@ This project solves a vendor procurement optimization problem for multi-material
 ## Input , WorkFlow and Output
 
 ### Input
+
+
+
 - `production.xlsx`, include 3 sheets
     - demand
     - bom
@@ -66,6 +69,8 @@ This project solves a vendor procurement optimization problem for multi-material
 
 ### Output
 
+check file `output_FEASIBILITY.xlsx` and `output_INFEASIBILITY.xlsx` for details 
+
 
 #### WHEN FEASIBLE
 
@@ -80,6 +85,8 @@ This project solves a vendor procurement optimization problem for multi-material
 
 
 #### WHHEN INFEASIBLE
+
+
 
 1. analyze which material cause infeasible
     ![alt text](images/image-2.png)
